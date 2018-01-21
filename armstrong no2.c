@@ -1,15 +1,25 @@
 #include<stdio.h>
 void main()
 {
-int num,rem,result=0;
-scanf("%d",&rem);
+int n1,n2,i,temp,rem,num;
+  printf("enter the number (interval)");
+scanf("%d%d",&n1,&n2);
+  printf("armstrong number %d and %d are ",n1,n2);
+  for(i=n1+1;i<n2;i++)
+  {
+    temp=i;
+    num=0;
 while(num!=0)
 {
-result=result+rem*rem*rem;
-num=num/10;
+  rem=(temp%10);
+  num+=rem*rem*rem;
+  temp!=10;
 }
-if(result==num)
-printf("armstrong no");
-else
-printf("not armstrong no");
-}
+    if(i==num)
+      printf(%d",i);
+             }
+             }
+             return 0;
+             }
+
+
