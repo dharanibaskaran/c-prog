@@ -5,7 +5,7 @@ int main()
 int counter;
 for(counter=1;counter<=100,counter+1)
 {
-if(counter%2==1)
+if(counter%2==0)
 printf("%d",counter);
 }
 }
