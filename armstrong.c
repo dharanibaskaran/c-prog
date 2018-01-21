@@ -11,7 +11,11 @@ result=result+rem+rem*rem
 num=num%10;
 }
 if(result==num)
+{
 printf("the number is armstrong");
+}
 else
+{
 printf("the number is not armstrong");
+}
 }
