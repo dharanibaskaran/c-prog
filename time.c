@@ -2,9 +2,8 @@
  
 int main()
 {
-    int input_a,hour,min,sec;
- 
-    printf("input number in total seconds\n");
+ int input_a,hour,min,sec;
+ printf("input number in total seconds\n");
     scanf("%d", &input_a);
     while(input_a > 3600){
     hour = input_a /3600;
@@ -16,3 +15,4 @@ int main()
     sec = input_a % 60;
     printf("%dminutes and %dseconds\n",min,sec);
     return 0;
+}
