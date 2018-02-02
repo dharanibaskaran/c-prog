@@ -1,14 +1,15 @@
 #include<stdio.h>
 void main()
 {
-int ch;
+char ch;
 printf("enter the letter");
 scanf("%d",&ch);
-if(ch>='a'&&ch<='z')
+if(ch>=a)&&(ch<='z')
 {
-printf("letterb is alphat");
+printf("%c is alphat" ch);
 }
 else
 {
-printf("letter is not alphat");
+printf("%c is not alphat" ch);
+}
 }
