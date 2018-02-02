@@ -4,7 +4,7 @@ void main()
 char ch;
 printf("enter the letter");
 scanf("%d",&ch);
-if(ch>=a)&&(ch<='z')
+if(ch>=a)&&(ch<=z)
 {
 printf("%c is alphat" ch);
 }
