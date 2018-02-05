@@ -10,4 +10,5 @@ printf("a is largest number");
 if((b>=a)&&(b>c))
 printf("b is greater number");
 if((c>=a)&&(c>=b))
+printf("c is greater number"):
 }
