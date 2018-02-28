@@ -1,12 +1,16 @@
 #include<stdio.h>
 int main()
 {
-    int a=10,b=20,temp;
+    int x,y;
+    printf("enter the a,b value");
+    scanf("%d,%d",&x,&y);
     {
-        temp=x;
-        x=y;
-        y=temp;
+    x=x^y;
+    y=x^y;
+    x=x^y;
     }
-      printf("the x value is%d",x);
-      printf("the y value is%d",y );
+
+printf("the value%d,%d",x,y);
+
     }
+
